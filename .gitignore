@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Image temporary folder
+temp/
+
+# Also any vids
+*.mp4
