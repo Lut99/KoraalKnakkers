@@ -1,0 +1,8 @@
+numpy==1.20.3
+scipy==1.7.0
+matplotlib==3.4.2
+matplotlib-inline==0.1.2
+pandas==1.2.5
+pystencils==0.3.3
+sympy==1.8
+lbmpy==0.3.3

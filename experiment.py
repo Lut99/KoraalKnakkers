@@ -4,7 +4,7 @@
 # Created:
 #   24/06/2021, 16:15:59
 # Last edited:
-#   25/06/2021, 09:31:29
+#   27/06/2021, 00:16:11
 # Auto updated?
 #   Yes
 #
@@ -1146,12 +1146,12 @@ if __name__ == "__main__":
         # "alpha": [0.0, 0.25, 0.5, 0.75, 1.0],
         # "alpha": [0.5, 0.75, 1.0],
         # "alpha": [1.0],
-        "alpha": 0.0,
+        "alpha": [0.0],
         # "threshold": [0.0, 0.05, 0.0501, 0.0502, 0.0503, 0.0504, 0.0505, 0.0506, 0.0507, 0.0508, 0.0509, 0.051, 0.5],
         # "threshold": [0.0, 0.0503, 0.0504, 0.0505, 0.0506, 0.0507, 0.01],
-        "threshold": [0.1],
+        "threshold": 0.1,
         "nut_inflow": 0.3
     }
 
     # Run the alphas
-    vary_param("/run/media/lut_99/Data/Temp/threshold", configs, test_iterations=10, compress = False)
+    vary_param("/run/media/lut_99/Data/Temp/threshold", configs, test_iterations=1, compress = False)
