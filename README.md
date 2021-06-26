@@ -7,6 +7,8 @@ by the KoraalKnakkers (Group 4):
 
 This repository was made during the UvA Computational Science Master course Complex System Simulation.
 
+Check the online repo [here](https://github.com/Lut99/KoraalKnakkers).
+
 ## Quickstart Guide
 
 To quickly run the code, simply open ```DLA final.ipynb``` in Jupyter notebook and run all cells. Some cells may give some file-not-found errors, but that shouldn't be an issue. These are only relevant once ```experiment.py``` is used.
