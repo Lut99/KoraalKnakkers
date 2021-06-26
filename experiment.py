@@ -4,7 +4,7 @@
 # Created:
 #   24/06/2021, 16:15:59
 # Last edited:
-#   27/06/2021, 00:16:11
+#   27/06/2021, 00:58:23
 # Auto updated?
 #   Yes
 #
@@ -1154,4 +1154,4 @@ if __name__ == "__main__":
     }
 
     # Run the alphas
-    vary_param("/run/media/lut_99/Data/Temp/threshold", configs, test_iterations=1, compress = False)
+    vary_param("outputs/alpha", configs, test_iterations=1, compress = False)
