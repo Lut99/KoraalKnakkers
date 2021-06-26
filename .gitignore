@@ -132,4 +132,4 @@ dmypy.json
 temp/
 
 # Also any vids
-*.mp4
+# *.mp4
